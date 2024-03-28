@@ -2,7 +2,7 @@
  * @Describe: 
  * @Date: 2024-03-22 18:19:45
  * @LastEditors: Cosima
- * @LastEditTime: 2024-03-28 12:00:40
+ * @LastEditTime: 2024-03-28 20:27:29
  * @FilePath: /qiankun-demo/qiankun-base/src/App.tsx
  */
 import React from 'react';
@@ -16,7 +16,7 @@ const handleBase = () => {
 function App() {
   return (
     <div className="App">
-      <button onClick={handleBase}>base</button>
+      <div><button onClick={handleBase}>base</button></div>
       <a className="a-link" href="/micro-app1">micro-app1</a>
       <a className="a-link" href="/micro-app2">micro-app2</a>
       <a className="a-link" href="/micro-vue3-app3">micro-vue3-app3</a>

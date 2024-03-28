@@ -2,7 +2,7 @@
  * @Describe: 
  * @Date: 2024-03-22 18:19:45
  * @LastEditors: Cosima
- * @LastEditTime: 2024-03-28 13:49:55
+ * @LastEditTime: 2024-03-28 20:26:05
  * @FilePath: /qiankun-demo/qiankun-base/src/index.tsx
  */
 import React from "react";
@@ -49,16 +49,16 @@ registerMicroApps([
     //   age: 32
     // }
   },
-  // {
-  //   name: "micro-vue3-app3",
-  //   entry: "//localhost:3013",
-  //   container: "#micro-vue3-app3",
-  //   activeRule: "/micro-vue3-app3",
-  //   props: {
-  //     niceBody: "malena",
-  //     age: 32
-  //   }
-  // }
+  {
+    name: "micro-vue3-app3",
+    entry: "//localhost:3013",
+    container: "#micro-vue3-app3",
+    activeRule: "/micro-vue3-app3",
+    // props: {
+    //   niceBody: "malena",
+    //   age: 32
+    // }
+  }
 ]);
 
 start();
